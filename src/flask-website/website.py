@@ -20,3 +20,11 @@ def index():
 @app.route("/logged")
 def logged():
     return render_template('loggedusers.html')
+
+@app.route("/info")
+def info():
+    return render_template('CIA.html')
+
+@app.route("/inscryption")
+def inscryption():
+    return render_template('DMullins.html')
