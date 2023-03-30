@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block title %}Connexion{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+      <div class="col">
+        Information de l'utilisateur:
+        <table class="table tbale-striped">
+          <thead class="table-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Prenom</th>
+                <th scope="col">Date de nainssance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>EINSTEIN</td>
+                <td>Albert</td>
+                <td>14/03/1879</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Donne accès à la base de données
+pip install mysql-connector-python
 # Secure root account
 sudo mysql -e "UPDATE mysql.user SET Password = PASSWORD('passwordDbUniv01') WHERE User = 'root'"
 # Create database

@@ -16,3 +16,7 @@ def index():
         return render_template('start.html')
     else:
         return render_template('auth.html')
+
+@app.route("/logged")
+def logged():
+    return render_template('loggedusers.html')
